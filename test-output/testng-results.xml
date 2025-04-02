@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-02T14:44:40 IST" name="Demoblaze_Testcases" finished-at="2025-04-02T14:45:54 IST" duration-ms="74441">
+    <groups>
+    </groups>
+    <test started-at="2025-04-02T14:44:40 IST" name="TC1" finished-at="2025-04-02T14:44:56 IST" duration-ms="16829">
+      <class name="testcases.TC_LaunchTheApplication">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC_LaunchTheApplication@72035809]" started-at="2025-04-02T14:44:40 IST" name="Setup" finished-at="2025-04-02T14:44:40 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithValidCredentials()[pri:1, instance:testcases.TC_LaunchTheApplication@72035809]" started-at="2025-04-02T14:44:40 IST" name="LoginWithValidCredentials" finished-at="2025-04-02T14:44:56 IST" duration-ms="16761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidCredentials -->
+      </class> <!-- testcases.TC_LaunchTheApplication -->
+    </test> <!-- TC1 -->
+    <test started-at="2025-04-02T14:44:56 IST" name="TC2" finished-at="2025-04-02T14:45:21 IST" duration-ms="24355">
+      <class name="testcases.TC_RegisterNewUSerAndSignIn">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC_RegisterNewUSerAndSignIn@1972e513]" started-at="2025-04-02T14:44:56 IST" name="Setup" finished-at="2025-04-02T14:44:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterNewUSer()[pri:1, instance:testcases.TC_RegisterNewUSerAndSignIn@1972e513]" started-at="2025-04-02T14:44:56 IST" name="RegisterNewUSer" finished-at="2025-04-02T14:45:21 IST" duration-ms="24334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterNewUSer -->
+      </class> <!-- testcases.TC_RegisterNewUSerAndSignIn -->
+    </test> <!-- TC2 -->
+    <test started-at="2025-04-02T14:45:21 IST" name="TC3" finished-at="2025-04-02T14:45:54 IST" duration-ms="33187">
+      <class name="testcases.TC_AddProductAndPlaceOrder">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.TC_AddProductAndPlaceOrder@3f4faf53]" started-at="2025-04-02T14:45:21 IST" name="Setup" finished-at="2025-04-02T14:45:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddProductAndPlaceOrder()[pri:1, instance:testcases.TC_AddProductAndPlaceOrder@3f4faf53]" started-at="2025-04-02T14:45:21 IST" name="AddProductAndPlaceOrder" finished-at="2025-04-02T14:45:33 IST" duration-ms="12116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductAndPlaceOrder -->
+        <test-method signature="PurchaseTheProduct()[pri:2, instance:testcases.TC_AddProductAndPlaceOrder@3f4faf53]" started-at="2025-04-02T14:45:33 IST" name="PurchaseTheProduct" finished-at="2025-04-02T14:45:53 IST" duration-ms="19646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseTheProduct -->
+        <test-method signature="LogOut()[pri:3, instance:testcases.TC_AddProductAndPlaceOrder@3f4faf53]" started-at="2025-04-02T14:45:53 IST" name="LogOut" finished-at="2025-04-02T14:45:54 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- testcases.TC_AddProductAndPlaceOrder -->
+    </test> <!-- TC3 -->
+  </suite> <!-- Demoblaze_Testcases -->
+</testng-results>

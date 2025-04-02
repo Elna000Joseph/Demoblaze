@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze_Testcases">
+<listeners>
+<listener class-name="listenerspackage.CustomListener"></listener>
+</listeners>
+
+
+<test name="TC1">
+<classes>
+<class name="testcases.TC_LaunchTheApplication"/>
+</classes>
+</test>
+
+
+<test name="TC2">
+<classes>
+<class name="testcases.TC_RegisterNewUSerAndSignIn"/>
+</classes>
+</test>
+
+
+ 
+<test name="TC3">
+<classes>
+<class name="testcases.TC_AddProductAndPlaceOrder"/>
+</classes>
+</test>
+<!-- -->
+
+
+</suite> 
